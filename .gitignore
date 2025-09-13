@@ -1,0 +1,39 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django migrations (optional: keep them if you want them versioned)
+# */migrations/*.pyc
+# */migrations/*.py
+# */migrations/__pycache__/
+
+# Database files (SQLite)
+db.sqlite3
+
+# Django local settings
+*.local
+*.env
+.env
+
+# Logs
+*.log
+
+# Media and static files (if generated locally)
+media/
+staticfiles/
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
